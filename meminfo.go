@@ -35,7 +35,7 @@ var WANT = map[string]struct{}{
 	"MemFree:":   struct{}{},
 	"SwapTotal:": struct{}{},
 	"SwapFree:":  struct{}{},
-	"MemAvailable":  struct{}{},
+	"MemAvailable:":  struct{}{},
 }
 
 func MemInfo() (*Mem, error) {
